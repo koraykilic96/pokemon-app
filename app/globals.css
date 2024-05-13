@@ -31,3 +31,111 @@ body {
     text-wrap: balance;
   }
 }
+
+.h-120 {
+  height: 30rem;
+}
+
+.button-back {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.divider {
+  display: flex;
+  border-top: 3px solid #FFF;
+  margin: 40px 0;
+}
+
+.element {
+  content:"";
+  right:0;
+  top:0;
+  width:50px;
+  height:50px;
+  background: url(./images/pokemon-types.png);
+  background-size: 290px;
+}
+
+.element.grass {
+  background-position: -143px -114px;
+}
+
+.element.poison {
+  background-position: -95px -5px;
+}
+
+.element.water {
+  background-position: 148px -59px;
+}
+
+.element.bug {
+  background-position: 194px 55px;
+}
+
+.element.ice {
+  background-position: -95px -5px;
+}
+
+.element.fighting {
+  background-position: -95px -5px;
+}
+
+.element.psychic {
+  background-position: -95px -5px;
+}
+
+.element.dragon {
+  background-position: -95px -5px;
+}
+
+.element.ghost {
+  background-position: -95px -5px;
+}
+
+.element.dark {
+  background-position: -95px -5px;
+}
+
+.element.ground {
+  background-position: -95px -5px;
+}
+
+.element.fire {
+  background-position: -48px -60px;
+}
+
+.element.fairy {
+  background-position: -95px -5px;
+}
+
+.element.flying {
+  background-position: -190px -59px;
+}
+
+.element.normal {
+  background-position: 50px 109px;
+}
+
+.element.rock {
+  background-position: -95px -5px;
+}
+
+.element.electric {
+  background-position: -95px -5px;
+}
+
+.element.steel {
+  background-position: -95px -5px;
+}
